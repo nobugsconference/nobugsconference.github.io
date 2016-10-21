@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/stylesheet.css">
+
+<body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div class="container">
+
+<h2>Python Script Exchange</h2>
+
+<p>At the last NOBUGS conference we found that especially the synchrotron community shares a common architecture for its control systems: EPICS or TANGO for device access and a script server which executes pythons script on behalf of the user. This led to the idea to create a space where such scripts can be exchanged. And you are invited to do this through this page. Please do publish your scripts here even if they are specific to your control system; such scripts may still serve as a template for reuse in another system. But as python also plays a prominent role in data analysis, please feel free to share data analysis python scripts as well.</p>
+
+<h3>Rules</h3>
+
+<ul>
+<li>Everyone can create an account and start editing this page. </li>
+<li>All scripts must be released under some form of free software licence: GPL, BSD etc, in source code.</li>
+<li>All entries must provide at least the following information:</li>
+<ul>
+  <li>Title</li>
+  <li>A description what the script does. </li>
+  <li>A link to the source code.</li>
+  <li>Information on the licence under which the script is released. </li>
+  <li>The author(s) of the script together with e-mail addresses.</li>
+  <li>Information on dependencies for the script.</li>
+</ul>
+<li>The NOBUGS International Organizing Committee reserves the right to remove entries from this page when they either do not match the NOBUGS domain or do not follow the rules set out. The author will be asked to fix the problem first.</li>
+</ul>
+
+<h2>SpecClient Python package</h2>
+
+<p>SpecClient is a Python package developped at ESRF since 2003. It
+allows to take advantage of the client/server capabilities offered by
+Spec since release 5.04.03 ; using SpecClient, reading/writing global
+variables from a remote Spec session, executing macros or functions,
+moving motors, etc. becomes really easy from a Python script.</p>
+
+<h3>Feel free to download</h3>
+
+<ul>
+<li><a href='ftp://ftp.esrf.fr/pub/bliss/SpecClient_1-71.tar.gz'>SpecClient 1.71 (source package)</a></li>
+<li><a href='http://ftp.esrf.fr/pub/bliss/SpecClient%20user%27s%20guide.pdf'>SpecClient's user guide</a></li>
+</ul>
+
+<h3>License<h3>
+
+<p>don't bother</p>
+
+<h3>Author</h3>
+
+<p>Matias Guijarro, guijarro at esrf dot fr</p>
+
+<h3>Package dependencies</h3>
+
+<ul>
+<li>Python >= 2.3</li>
+<li>Spec >= 5.04.03</li>
+<li>for dealing with arrays efficiently, Numpy is recommended</li>
+</ul>
+
+</div><!-- /.container -->
+
+</body>
+</html>
